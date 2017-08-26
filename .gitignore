@@ -65,3 +65,73 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+ArchTemp/Pods/SwiftLint/file.zip
+ArchTemp/Pods/SwiftLint/LICENSE
+ArchTemp/Pods/SwiftLint/swiftlint
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/SwiftLintFramework
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/SwiftLintFramework
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/libswiftCore.dylib
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/libswiftCoreGraphics.dylib
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/libswiftDarwin.dylib
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/libswiftDispatch.dylib
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/libswiftFoundation.dylib
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/libswiftIOKit.dylib
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/libswiftObjectiveC.dylib
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Commandant.framework/Commandant
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Commandant.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Commandant.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Commandant.framework/Versions/A/Commandant
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Commandant.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Result.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Result.framework/Result
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Result.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Result.framework/Versions/A/Result
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Result.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SourceKittenFramework.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SourceKittenFramework.framework/SourceKittenFramework
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SourceKittenFramework.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SourceKittenFramework.framework/Versions/A/SourceKittenFramework
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SourceKittenFramework.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SwiftyTextTable.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SwiftyTextTable.framework/SwiftyTextTable
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SwiftyTextTable.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SwiftyTextTable.framework/Versions/A/SwiftyTextTable
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SwiftyTextTable.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SWXMLHash.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SWXMLHash.framework/SWXMLHash
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SWXMLHash.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SWXMLHash.framework/Versions/A/SWXMLHash
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/SWXMLHash.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yaml.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yaml.framework/Yaml
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yaml.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yaml.framework/Versions/A/Yaml
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yaml.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yams.framework/Resources
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yams.framework/Yams
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yams.framework/Versions/Current
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yams.framework/Versions/A/Yams
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Frameworks/Yams.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/SwiftLint/SwiftLintFramework.framework/Versions/A/Resources/Info.plist
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Info.plist
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-acknowledgements.markdown
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-acknowledgements.plist
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-dummy.m
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-frameworks.sh
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-resources.sh
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-umbrella.h
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp.debug.xcconfig
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp.modulemap
+ArchTemp/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp.release.xcconfig
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Info.plist
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-acknowledgements.markdown
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-acknowledgements.plist
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-dummy.m
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-frameworks.sh
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-resources.sh
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-umbrella.h
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests.debug.xcconfig
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests.modulemap
+ArchTemp/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests.release.xcconfig

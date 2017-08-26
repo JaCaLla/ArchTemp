@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3EF4DAB1BE8E91C6915028 /* Pods_ArchTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B00C9DF1AECA2FF67E040A /* Pods_ArchTemp.framework */; };
+		BF280ADF1F5137FA00134803 /* InitAppSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280ADE1F5137FA00134803 /* InitAppSequence.swift */; };
+		BF280AE11F51391E00134803 /* PresentMainAppOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AE01F51391E00134803 /* PresentMainAppOperation.swift */; };
+		BF280AEB1F513AFA00134803 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF280AE91F513AFA00134803 /* main.storyboard */; };
+		BF280AEC1F513AFA00134803 /* MainMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AEA1F513AFA00134803 /* MainMVP.swift */; };
+		BF280AEF1F513B8B00134803 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AEE1F513B8B00134803 /* AppStoryboard.swift */; };
+		BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AF01F513C4100134803 /* ConcurrentOperation.swift */; };
 		BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BDC311F4C02930035F0F3 /* AppDelegate.swift */; };
-		BF7BDC341F4C02930035F0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BDC331F4C02930035F0F3 /* ViewController.swift */; };
-		BF7BDC371F4C02930035F0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7BDC351F4C02930035F0F3 /* Main.storyboard */; };
 		BF7BDC391F4C02930035F0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7BDC381F4C02930035F0F3 /* Assets.xcassets */; };
 		BF7BDC3C1F4C02930035F0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7BDC3A1F4C02930035F0F3 /* LaunchScreen.storyboard */; };
 		BF7BDC471F4C02930035F0F3 /* ArchTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BDC461F4C02930035F0F3 /* ArchTempTests.swift */; };
+		E8A8EE5607B2703EC07DA9F4 /* Pods_ArchTempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C42D1653762975DE1AC3082 /* Pods_ArchTempTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0142828B2089BE00675E60 /* Pods-ArchTempTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTempTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests.release.xcconfig"; sourceTree = "<group>"; };
+		4256577DA83909E42EDF661C /* Pods-ArchTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTemp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		6C42D1653762975DE1AC3082 /* Pods_ArchTempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchTempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE48CB63C9FA856D5D182C0 /* Pods-ArchTempTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTempTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B00C9DF1AECA2FF67E040A /* Pods_ArchTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF280ADE1F5137FA00134803 /* InitAppSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitAppSequence.swift; path = DomainLayer/Sequencer/InitAppSequence.swift; sourceTree = "<group>"; };
+		BF280AE01F51391E00134803 /* PresentMainAppOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentMainAppOperation.swift; path = DomainLayer/Sequencer/Operations/PresentMainAppOperation.swift; sourceTree = "<group>"; };
+		BF280AE91F513AFA00134803 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		BF280AEA1F513AFA00134803 /* MainMVP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMVP.swift; sourceTree = "<group>"; };
+		BF280AEE1F513B8B00134803 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStoryboard.swift; path = ViewLayer/Extensions/AppStoryboard.swift; sourceTree = "<group>"; };
+		BF280AF01F513C4100134803 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConcurrentOperation.swift; path = DomainLayer/Sequencer/Operations/ConcurrentOperation.swift; sourceTree = "<group>"; };
 		BF7BDC2E1F4C02930035F0F3 /* ArchTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7BDC311F4C02930035F0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF7BDC331F4C02930035F0F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF7BDC361F4C02930035F0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF7BDC381F4C02930035F0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF7BDC3B1F4C02930035F0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF7BDC3D1F4C02930035F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7BDC421F4C02930035F0F3 /* ArchTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7BDC461F4C02930035F0F3 /* ArchTempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchTempTests.swift; sourceTree = "<group>"; };
 		BF7BDC481F4C02930035F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DD2576F197ADD6697128F3 /* Pods-ArchTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3EF4DAB1BE8E91C6915028 /* Pods_ArchTemp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +67,98 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A8EE5607B2703EC07DA9F4 /* Pods_ArchTempTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1342CCA516308B2E5F6025AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B00C9DF1AECA2FF67E040A /* Pods_ArchTemp.framework */,
+				6C42D1653762975DE1AC3082 /* Pods_ArchTempTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF280AD91F5136E900134803 /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BF280AED1F513B2C00134803 /* Extensions */,
+				BF280AE71F513AFA00134803 /* Controllers */,
+			);
+			name = ViewLayer;
+			sourceTree = "<group>";
+		};
+		BF280ADA1F5136F900134803 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BF280ADC1F51378600134803 /* Sequencer */,
+			);
+			name = DomainLayer;
+			sourceTree = "<group>";
+		};
+		BF280ADB1F51371400134803 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataLayer;
+			sourceTree = "<group>";
+		};
+		BF280ADC1F51378600134803 /* Sequencer */ = {
+			isa = PBXGroup;
+			children = (
+				BF280ADD1F51379200134803 /* Operations */,
+				BF280ADE1F5137FA00134803 /* InitAppSequence.swift */,
+			);
+			name = Sequencer;
+			sourceTree = "<group>";
+		};
+		BF280ADD1F51379200134803 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				BF280AF01F513C4100134803 /* ConcurrentOperation.swift */,
+				BF280AE01F51391E00134803 /* PresentMainAppOperation.swift */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		BF280AE71F513AFA00134803 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF280AE81F513AFA00134803 /* Main */,
+			);
+			name = Controllers;
+			path = ViewLayer/Controllers;
+			sourceTree = "<group>";
+		};
+		BF280AE81F513AFA00134803 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF280AE91F513AFA00134803 /* main.storyboard */,
+				BF280AEA1F513AFA00134803 /* MainMVP.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BF280AED1F513B2C00134803 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF280AEE1F513B8B00134803 /* AppStoryboard.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		BF7BDC251F4C02930035F0F3 = {
 			isa = PBXGroup;
 			children = (
 				BF7BDC301F4C02930035F0F3 /* ArchTemp */,
 				BF7BDC451F4C02930035F0F3 /* ArchTempTests */,
 				BF7BDC2F1F4C02930035F0F3 /* Products */,
+				F283E3D928E62156C0F09B27 /* Pods */,
+				1342CCA516308B2E5F6025AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +174,10 @@
 		BF7BDC301F4C02930035F0F3 /* ArchTemp */ = {
 			isa = PBXGroup;
 			children = (
+				BF280ADB1F51371400134803 /* DataLayer */,
+				BF280ADA1F5136F900134803 /* DomainLayer */,
+				BF280AD91F5136E900134803 /* ViewLayer */,
 				BF7BDC311F4C02930035F0F3 /* AppDelegate.swift */,
-				BF7BDC331F4C02930035F0F3 /* ViewController.swift */,
-				BF7BDC351F4C02930035F0F3 /* Main.storyboard */,
 				BF7BDC381F4C02930035F0F3 /* Assets.xcassets */,
 				BF7BDC3A1F4C02930035F0F3 /* LaunchScreen.storyboard */,
 				BF7BDC3D1F4C02930035F0F3 /* Info.plist */,
@@ -96,6 +194,17 @@
 			path = ArchTempTests;
 			sourceTree = "<group>";
 		};
+		F283E3D928E62156C0F09B27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4256577DA83909E42EDF661C /* Pods-ArchTemp.debug.xcconfig */,
+				C4DD2576F197ADD6697128F3 /* Pods-ArchTemp.release.xcconfig */,
+				7EE48CB63C9FA856D5D182C0 /* Pods-ArchTempTests.debug.xcconfig */,
+				0E0142828B2089BE00675E60 /* Pods-ArchTempTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +212,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF7BDC4B1F4C02930035F0F3 /* Build configuration list for PBXNativeTarget "ArchTemp" */;
 			buildPhases = (
+				6D36E7FABEE91933C111A47D /* [CP] Check Pods Manifest.lock */,
 				BF7BDC2A1F4C02930035F0F3 /* Sources */,
 				BF7BDC2B1F4C02930035F0F3 /* Frameworks */,
 				BF7BDC2C1F4C02930035F0F3 /* Resources */,
+				C8C69E272068CE2877AECA2B /* [CP] Embed Pods Frameworks */,
+				0D01D988E01C949013F69443 /* [CP] Copy Pods Resources */,
+				BF280AF21F51419700134803 /* Run Script (SwiftLint) */,
 			);
 			buildRules = (
 			);
@@ -120,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF7BDC4E1F4C02930035F0F3 /* Build configuration list for PBXNativeTarget "ArchTempTests" */;
 			buildPhases = (
+				D2652B1259520907B62AA81F /* [CP] Check Pods Manifest.lock */,
 				BF7BDC3E1F4C02930035F0F3 /* Sources */,
 				BF7BDC3F1F4C02930035F0F3 /* Frameworks */,
 				BF7BDC401F4C02930035F0F3 /* Resources */,
+				1961AC295C1628C34765AF68 /* [CP] Embed Pods Frameworks */,
+				E95423389698263993FD0C4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +262,7 @@
 				TargetAttributes = {
 					BF7BDC2D1F4C02930035F0F3 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7ZPDPWR8XU;
 						ProvisioningStyle = Automatic;
 					};
 					BF7BDC411F4C02930035F0F3 = {
@@ -181,7 +298,7 @@
 			files = (
 				BF7BDC3C1F4C02930035F0F3 /* LaunchScreen.storyboard in Resources */,
 				BF7BDC391F4C02930035F0F3 /* Assets.xcassets in Resources */,
-				BF7BDC371F4C02930035F0F3 /* Main.storyboard in Resources */,
+				BF280AEB1F513AFA00134803 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +311,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D01D988E01C949013F69443 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1961AC295C1628C34765AF68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D36E7FABEE91933C111A47D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArchTemp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF280AF21F51419700134803 /* Run Script (SwiftLint) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (SwiftLint)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\n#swiftlint autocorrect --format\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		C8C69E272068CE2877AECA2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2652B1259520907B62AA81F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArchTempTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95423389698263993FD0C4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF7BDC2A1F4C02930035F0F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7BDC341F4C02930035F0F3 /* ViewController.swift in Sources */,
+				BF280AE11F51391E00134803 /* PresentMainAppOperation.swift in Sources */,
+				BF280AEC1F513AFA00134803 /* MainMVP.swift in Sources */,
+				BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */,
 				BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */,
+				BF280AEF1F513B8B00134803 /* AppStoryboard.swift in Sources */,
+				BF280ADF1F5137FA00134803 /* InitAppSequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +457,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF7BDC351F4C02930035F0F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF7BDC361F4C02930035F0F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF7BDC3A1F4C02930035F0F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -339,8 +565,10 @@
 		};
 		BF7BDC4C1F4C02930035F0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4256577DA83909E42EDF661C /* Pods-ArchTemp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ZPDPWR8XU;
 				INFOPLIST_FILE = ArchTemp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jca.ArchTemp;
@@ -351,8 +579,10 @@
 		};
 		BF7BDC4D1F4C02930035F0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DD2576F197ADD6697128F3 /* Pods-ArchTemp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ZPDPWR8XU;
 				INFOPLIST_FILE = ArchTemp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jca.ArchTemp;
@@ -363,6 +593,7 @@
 		};
 		BF7BDC4F1F4C02930035F0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE48CB63C9FA856D5D182C0 /* Pods-ArchTempTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +608,7 @@
 		};
 		BF7BDC501F4C02930035F0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0142828B2089BE00675E60 /* Pods-ArchTempTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,6 +640,7 @@
 				BF7BDC4D1F4C02930035F0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF7BDC4E1F4C02930035F0F3 /* Build configuration list for PBXNativeTarget "ArchTempTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +649,7 @@
 				BF7BDC501F4C02930035F0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

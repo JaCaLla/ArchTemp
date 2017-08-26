@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143C4485A50B2474873F1A47E857AC78 /* Pods-ArchTempTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA51BB290D4D04FB90741C7876002B1B /* Pods-ArchTempTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E36386C03E30C2F2456BD9CBC4540C1 /* Pods-ArchTemp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3269D7DE9980802EDE7F65CE35028CA /* Pods-ArchTemp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7B91223441CC705A0DFEB041D3A3C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8DCB0759F9550C73EED44BD032771F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A738362AEDDD9B993BFDD8B80DB8D129 /* Pods-ArchTemp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A080D326BE063B6316AD4E0C61CBE09A /* Pods-ArchTemp-dummy.m */; };
+		D0F160273609920A15A3B2C8569E0FFF /* Pods-ArchTempTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE760FEF23398C9D6E806B33F8FE83 /* Pods-ArchTempTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0265E27601C79CAEC1457C2E7C0EC2CB /* Pods-ArchTemp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArchTemp-acknowledgements.plist"; sourceTree = "<group>"; };
+		03D9A2E902DCD90005077F32CB7B83DB /* Pods-ArchTempTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArchTempTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1641D5D17E91E13FF2D38BAB06B9DF24 /* Pods-ArchTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		28E89341D013801E1DE3446DE7C7C504 /* Pods-ArchTempTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchTempTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A338A29962F8EEFB4B525557A8F8B66 /* Pods-ArchTemp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchTemp-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FB9D5B1DF79604367DE6BA3F02AB6D9 /* Pods-ArchTemp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArchTemp.modulemap"; sourceTree = "<group>"; };
+		70CE760FEF23398C9D6E806B33F8FE83 /* Pods-ArchTempTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArchTempTests-dummy.m"; sourceTree = "<group>"; };
+		8DC4744AF30941830C33E5356FFA7D70 /* Pods-ArchTemp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchTemp-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97AE61695A625A544252F6BC8F268B0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988F1008C866850580E4D27D4844A01F /* Pods-ArchTempTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArchTempTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A080D326BE063B6316AD4E0C61CBE09A /* Pods-ArchTemp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArchTemp-dummy.m"; sourceTree = "<group>"; };
+		A3BFD1775CE90D915CC814C7BC2C5B65 /* Pods_ArchTempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArchTempTests.framework; path = "Pods-ArchTempTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53B400ED26D83183758CE5B4CB2B8E8 /* Pods-ArchTempTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchTempTests-resources.sh"; sourceTree = "<group>"; };
+		A71F73927D38CC06FF4C6696ED3226A1 /* Pods-ArchTempTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchTempTests-frameworks.sh"; sourceTree = "<group>"; };
+		AA51BB290D4D04FB90741C7876002B1B /* Pods-ArchTempTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArchTempTests-umbrella.h"; sourceTree = "<group>"; };
+		B41E2D4A81707FA6A96CED9659C5CC6D /* Pods-ArchTempTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchTempTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1A99CCF1486D9CD4D441F95CFD5A31F /* Pods-ArchTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchTemp.release.xcconfig"; sourceTree = "<group>"; };
+		C3E5E6B7B3987F807DACEDE69D490E79 /* Pods-ArchTemp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArchTemp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBC90B6E024AEC970D60012C77289571 /* Pods-ArchTempTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArchTempTests.modulemap"; sourceTree = "<group>"; };
+		E3269D7DE9980802EDE7F65CE35028CA /* Pods-ArchTemp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArchTemp-umbrella.h"; sourceTree = "<group>"; };
+		F1D8E86F6D70AAC3DA2ED11DEA7D9562 /* Pods_ArchTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArchTemp.framework; path = "Pods-ArchTemp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5F15664A1E8A26A1BF8D6F98CC0AD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD4F0F123E50B9ED3FDBA1FBF735352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCB0759F9550C73EED44BD032771F59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DECEBC5B1827499EBF02DFE31B1FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7B91223441CC705A0DFEB041D3A3C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A23E08346748F1793F899C5FF672C1 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		72C92466C3D6D66481FEAE46194278E7 /* Pods-ArchTemp */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F15664A1E8A26A1BF8D6F98CC0AD8 /* Info.plist */,
+				6FB9D5B1DF79604367DE6BA3F02AB6D9 /* Pods-ArchTemp.modulemap */,
+				C3E5E6B7B3987F807DACEDE69D490E79 /* Pods-ArchTemp-acknowledgements.markdown */,
+				0265E27601C79CAEC1457C2E7C0EC2CB /* Pods-ArchTemp-acknowledgements.plist */,
+				A080D326BE063B6316AD4E0C61CBE09A /* Pods-ArchTemp-dummy.m */,
+				8DC4744AF30941830C33E5356FFA7D70 /* Pods-ArchTemp-frameworks.sh */,
+				4A338A29962F8EEFB4B525557A8F8B66 /* Pods-ArchTemp-resources.sh */,
+				E3269D7DE9980802EDE7F65CE35028CA /* Pods-ArchTemp-umbrella.h */,
+				1641D5D17E91E13FF2D38BAB06B9DF24 /* Pods-ArchTemp.debug.xcconfig */,
+				C1A99CCF1486D9CD4D441F95CFD5A31F /* Pods-ArchTemp.release.xcconfig */,
+			);
+			name = "Pods-ArchTemp";
+			path = "Target Support Files/Pods-ArchTemp";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */,
+				DC9546194299DF107CD19498E4FA754F /* Products */,
+				DE13441D37E2017D257950A625BDDC4F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A23E08346748F1793F899C5FF672C1 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7D36C15106B1B88DBD42DE5DC864BCC /* Pods-ArchTempTests */ = {
+			isa = PBXGroup;
+			children = (
+				97AE61695A625A544252F6BC8F268B0E /* Info.plist */,
+				DBC90B6E024AEC970D60012C77289571 /* Pods-ArchTempTests.modulemap */,
+				988F1008C866850580E4D27D4844A01F /* Pods-ArchTempTests-acknowledgements.markdown */,
+				03D9A2E902DCD90005077F32CB7B83DB /* Pods-ArchTempTests-acknowledgements.plist */,
+				70CE760FEF23398C9D6E806B33F8FE83 /* Pods-ArchTempTests-dummy.m */,
+				A71F73927D38CC06FF4C6696ED3226A1 /* Pods-ArchTempTests-frameworks.sh */,
+				A53B400ED26D83183758CE5B4CB2B8E8 /* Pods-ArchTempTests-resources.sh */,
+				AA51BB290D4D04FB90741C7876002B1B /* Pods-ArchTempTests-umbrella.h */,
+				28E89341D013801E1DE3446DE7C7C504 /* Pods-ArchTempTests.debug.xcconfig */,
+				B41E2D4A81707FA6A96CED9659C5CC6D /* Pods-ArchTempTests.release.xcconfig */,
+			);
+			name = "Pods-ArchTempTests";
+			path = "Target Support Files/Pods-ArchTempTests";
+			sourceTree = "<group>";
+		};
+		DC9546194299DF107CD19498E4FA754F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8E86F6D70AAC3DA2ED11DEA7D9562 /* Pods_ArchTemp.framework */,
+				A3BFD1775CE90D915CC814C7BC2C5B65 /* Pods_ArchTempTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE13441D37E2017D257950A625BDDC4F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C92466C3D6D66481FEAE46194278E7 /* Pods-ArchTemp */,
+				D7D36C15106B1B88DBD42DE5DC864BCC /* Pods-ArchTempTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFC21BA6350A61E0C695F03857A15A40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E36386C03E30C2F2456BD9CBC4540C1 /* Pods-ArchTemp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB23498BEE79BD856A31D656FE6F06FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143C4485A50B2474873F1A47E857AC78 /* Pods-ArchTempTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BB6643AA7841F08E187A05D53061F0E /* Pods-ArchTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF546F002DBA1B0ACC924A48B5A5FEA /* Build configuration list for PBXNativeTarget "Pods-ArchTemp" */;
+			buildPhases = (
+				0B87162506B60961242C1051B54D8937 /* Sources */,
+				A1DECEBC5B1827499EBF02DFE31B1FE5 /* Frameworks */,
+				AFC21BA6350A61E0C695F03857A15A40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArchTemp";
+			productName = "Pods-ArchTemp";
+			productReference = F1D8E86F6D70AAC3DA2ED11DEA7D9562 /* Pods_ArchTemp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9301F7D5CC8669AE053D0B6E1751AB9 /* Pods-ArchTempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546A97C8512334A76EE8D2001E0BBD3B /* Build configuration list for PBXNativeTarget "Pods-ArchTempTests" */;
+			buildPhases = (
+				AC481C6244E2C64661119E3EFFB742A4 /* Sources */,
+				5CD4F0F123E50B9ED3FDBA1FBF735352 /* Frameworks */,
+				EB23498BEE79BD856A31D656FE6F06FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArchTempTests";
+			productName = "Pods-ArchTempTests";
+			productReference = A3BFD1775CE90D915CC814C7BC2C5B65 /* Pods_ArchTempTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC9546194299DF107CD19498E4FA754F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB6643AA7841F08E187A05D53061F0E /* Pods-ArchTemp */,
+				F9301F7D5CC8669AE053D0B6E1751AB9 /* Pods-ArchTempTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B87162506B60961242C1051B54D8937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A738362AEDDD9B993BFDD8B80DB8D129 /* Pods-ArchTemp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC481C6244E2C64661119E3EFFB742A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F160273609920A15A3B2C8569E0FFF /* Pods-ArchTempTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DE74DCBC6777F5CBBB8293975C1AD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A99CCF1486D9CD4D441F95CFD5A31F /* Pods-ArchTemp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArchTemp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArchTemp/Pods-ArchTemp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArchTemp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1279AD15C37FB4A95A9BF46D12AFBAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1641D5D17E91E13FF2D38BAB06B9DF24 /* Pods-ArchTemp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArchTemp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArchTemp/Pods-ArchTemp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArchTemp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E9AE67BDB1CCA77E2FC51CD13D79622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41E2D4A81707FA6A96CED9659C5CC6D /* Pods-ArchTempTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArchTempTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArchTempTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9DB7622D13FEBB63C2755F4E0A875FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E89341D013801E1DE3446DE7C7C504 /* Pods-ArchTempTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArchTempTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArchTempTests/Pods-ArchTempTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArchTempTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546A97C8512334A76EE8D2001E0BBD3B /* Build configuration list for PBXNativeTarget "Pods-ArchTempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DB7622D13FEBB63C2755F4E0A875FE /* Debug */,
+				5E9AE67BDB1CCA77E2FC51CD13D79622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EF546F002DBA1B0ACC924A48B5A5FEA /* Build configuration list for PBXNativeTarget "Pods-ArchTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1279AD15C37FB4A95A9BF46D12AFBAD7 /* Debug */,
+				0DE74DCBC6777F5CBBB8293975C1AD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
