@@ -8,13 +8,13 @@
 
 import Foundation
 
-class  InitAppCoordinator {
+class  InitAppSequence {
 
-    static let shared =  InitAppCoordinator()
+    static let shared =  InitAppSequence()
 
     fileprivate let operationQueue = OperationQueue()
 
-    init() {} //This prevents others from using the default '()' initializer for this class.
+    init() {}
 
     func start() {
 

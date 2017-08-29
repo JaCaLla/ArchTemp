@@ -14,6 +14,15 @@
 		BF280AEC1F513AFA00134803 /* MainMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AEA1F513AFA00134803 /* MainMVP.swift */; };
 		BF280AEF1F513B8B00134803 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AEE1F513B8B00134803 /* AppStoryboard.swift */; };
 		BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AF01F513C4100134803 /* ConcurrentOperation.swift */; };
+		BF2B4DF91F55449700B9A17B /* AllPlacesP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */; };
+		BF2B4DFA1F55449700B9A17B /* AllPlacesHeaderV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */; };
+		BF2B4DFB1F55449700B9A17B /* AllPlacesV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */; };
+		BF2B4DFC1F55449700B9A17B /* PlaceDetailP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF61F55449700B9A17B /* PlaceDetailP.swift */; };
+		BF2B4DFD1F55449700B9A17B /* places.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B4DF81F55449700B9A17B /* places.storyboard */; };
+		BF2B4DFF1F5544FA00B9A17B /* PlaceDetailV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DFE1F5544FA00B9A17B /* PlaceDetailV.swift */; };
+		BF2B4E021F55452900B9A17B /* PlacesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E011F55452900B9A17B /* PlacesUseCase.swift */; };
+		BF2B4E051F55455B00B9A17B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E041F55455B00B9A17B /* Place.swift */; };
+		BF2B4E0A1F5547D600B9A17B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E091F5547D600B9A17B /* R.generated.swift */; };
 		BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BDC311F4C02930035F0F3 /* AppDelegate.swift */; };
 		BF7BDC391F4C02930035F0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7BDC381F4C02930035F0F3 /* Assets.xcassets */; };
 		BF7BDC3C1F4C02930035F0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7BDC3A1F4C02930035F0F3 /* LaunchScreen.storyboard */; };
@@ -43,6 +52,15 @@
 		BF280AEA1F513AFA00134803 /* MainMVP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMVP.swift; sourceTree = "<group>"; };
 		BF280AEE1F513B8B00134803 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStoryboard.swift; path = ViewLayer/Extensions/AppStoryboard.swift; sourceTree = "<group>"; };
 		BF280AF01F513C4100134803 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConcurrentOperation.swift; path = DomainLayer/Sequencer/Operations/ConcurrentOperation.swift; sourceTree = "<group>"; };
+		BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesP.swift; sourceTree = "<group>"; };
+		BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesHeaderV.swift; sourceTree = "<group>"; };
+		BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesV.swift; sourceTree = "<group>"; };
+		BF2B4DF61F55449700B9A17B /* PlaceDetailP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailP.swift; sourceTree = "<group>"; };
+		BF2B4DF81F55449700B9A17B /* places.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = places.storyboard; sourceTree = "<group>"; };
+		BF2B4DFE1F5544FA00B9A17B /* PlaceDetailV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailV.swift; sourceTree = "<group>"; };
+		BF2B4E011F55452900B9A17B /* PlacesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesUseCase.swift; sourceTree = "<group>"; };
+		BF2B4E041F55455B00B9A17B /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		BF2B4E091F5547D600B9A17B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		BF7BDC2E1F4C02930035F0F3 /* ArchTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7BDC311F4C02930035F0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF7BDC381F4C02930035F0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +104,7 @@
 		BF280AD91F5136E900134803 /* ViewLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BF2B4E071F5546E100B9A17B /* Resources */,
 				BF280AED1F513B2C00134803 /* Extensions */,
 				BF280AE71F513AFA00134803 /* Controllers */,
 			);
@@ -95,6 +114,7 @@
 		BF280ADA1F5136F900134803 /* DomainLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BF2B4E001F55452900B9A17B /* UseCases */,
 				BF280ADC1F51378600134803 /* Sequencer */,
 			);
 			name = DomainLayer;
@@ -103,6 +123,7 @@
 		BF280ADB1F51371400134803 /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BF2B4E031F55455B00B9A17B /* Model */,
 			);
 			name = DataLayer;
 			sourceTree = "<group>";
@@ -128,6 +149,7 @@
 		BF280AE71F513AFA00134803 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF2B4DEF1F55449700B9A17B /* Places */,
 				BF280AE81F513AFA00134803 /* Main */,
 			);
 			name = Controllers;
@@ -149,6 +171,86 @@
 				BF280AEE1F513B8B00134803 /* AppStoryboard.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BF2B4DEF1F55449700B9A17B /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4DF01F55449700B9A17B /* AllPlaces */,
+				BF2B4DF51F55449700B9A17B /* PlaceDetail */,
+				BF2B4DF81F55449700B9A17B /* places.storyboard */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		BF2B4DF01F55449700B9A17B /* AllPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */,
+				BF2B4DF21F55449700B9A17B /* Views */,
+			);
+			path = AllPlaces;
+			sourceTree = "<group>";
+		};
+		BF2B4DF21F55449700B9A17B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */,
+				BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF2B4DF51F55449700B9A17B /* PlaceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4DF61F55449700B9A17B /* PlaceDetailP.swift */,
+				BF2B4DF71F55449700B9A17B /* Views */,
+			);
+			path = PlaceDetail;
+			sourceTree = "<group>";
+		};
+		BF2B4DF71F55449700B9A17B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4DFE1F5544FA00B9A17B /* PlaceDetailV.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF2B4E001F55452900B9A17B /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4E011F55452900B9A17B /* PlacesUseCase.swift */,
+			);
+			name = UseCases;
+			path = DomainLayer/UseCases;
+			sourceTree = "<group>";
+		};
+		BF2B4E031F55455B00B9A17B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4E041F55455B00B9A17B /* Place.swift */,
+			);
+			name = Model;
+			path = DataLayer/Model;
+			sourceTree = "<group>";
+		};
+		BF2B4E071F5546E100B9A17B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4E081F5546E100B9A17B /* RSwift */,
+			);
+			name = Resources;
+			path = ViewLayer/Resources;
+			sourceTree = "<group>";
+		};
+		BF2B4E081F5546E100B9A17B /* RSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B4E091F5547D600B9A17B /* R.generated.swift */,
+			);
+			path = RSwift;
 			sourceTree = "<group>";
 		};
 		BF7BDC251F4C02930035F0F3 = {
@@ -213,6 +315,7 @@
 			buildConfigurationList = BF7BDC4B1F4C02930035F0F3 /* Build configuration list for PBXNativeTarget "ArchTemp" */;
 			buildPhases = (
 				6D36E7FABEE91933C111A47D /* [CP] Check Pods Manifest.lock */,
+				BF2B4E061F55465D00B9A17B /* Run Script (RSwift) */,
 				BF7BDC2A1F4C02930035F0F3 /* Sources */,
 				BF7BDC2B1F4C02930035F0F3 /* Frameworks */,
 				BF7BDC2C1F4C02930035F0F3 /* Resources */,
@@ -296,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2B4DFD1F55449700B9A17B /* places.storyboard in Resources */,
 				BF7BDC3C1F4C02930035F0F3 /* LaunchScreen.storyboard in Resources */,
 				BF7BDC391F4C02930035F0F3 /* Assets.xcassets in Resources */,
 				BF280AEB1F513AFA00134803 /* main.storyboard in Resources */,
@@ -374,15 +478,36 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\n#swiftlint autocorrect --format\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
-		C8C69E272068CE2877AECA2B /* [CP] Embed Pods Frameworks */ = {
+		BF2B4E061F55465D00B9A17B /* Run Script (RSwift) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script (RSwift)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/ArchTemp/ViewLayer/Resources/RSwift\"";
+		};
+		C8C69E272068CE2877AECA2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -430,11 +555,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF280AE11F51391E00134803 /* PresentMainAppOperation.swift in Sources */,
+				BF2B4E0A1F5547D600B9A17B /* R.generated.swift in Sources */,
+				BF2B4E051F55455B00B9A17B /* Place.swift in Sources */,
+				BF2B4DFB1F55449700B9A17B /* AllPlacesV.swift in Sources */,
+				BF2B4DFA1F55449700B9A17B /* AllPlacesHeaderV.swift in Sources */,
 				BF280AEC1F513AFA00134803 /* MainMVP.swift in Sources */,
 				BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */,
 				BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */,
 				BF280AEF1F513B8B00134803 /* AppStoryboard.swift in Sources */,
+				BF2B4E021F55452900B9A17B /* PlacesUseCase.swift in Sources */,
+				BF2B4DFC1F55449700B9A17B /* PlaceDetailP.swift in Sources */,
 				BF280ADF1F5137FA00134803 /* InitAppSequence.swift in Sources */,
+				BF2B4DFF1F5544FA00B9A17B /* PlaceDetailV.swift in Sources */,
+				BF2B4DF91F55449700B9A17B /* AllPlacesP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

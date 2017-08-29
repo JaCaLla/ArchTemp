@@ -13,6 +13,8 @@ class MainMVP: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.viewControllers = [AllPlacesP.instantiate(fromAppStoryboard: .places)]
+
         // Do any additional setup after loading the view.
     }
 
