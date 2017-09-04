@@ -554,3 +554,13 @@ ArchTemp/Pods/Target Support Files/RealmSwift/RealmSwift-prefix.pch
 ArchTemp/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h
 ArchTemp/Pods/Target Support Files/RealmSwift/RealmSwift.modulemap
 ArchTemp/Pods/Target Support Files/RealmSwift/RealmSwift.xcconfig
+ArchTemp/Pods/MBProgressHUD/LICENSE
+ArchTemp/Pods/MBProgressHUD/MBProgressHUD.h
+ArchTemp/Pods/MBProgressHUD/MBProgressHUD.m
+ArchTemp/Pods/MBProgressHUD/README.mdown
+ArchTemp/Pods/Target Support Files/MBProgressHUD/Info.plist
+ArchTemp/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-dummy.m
+ArchTemp/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch
+ArchTemp/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h
+ArchTemp/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.modulemap
+ArchTemp/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.xcconfig

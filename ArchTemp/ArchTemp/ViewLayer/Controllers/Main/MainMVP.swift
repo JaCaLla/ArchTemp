@@ -13,10 +13,17 @@ class MainMVP: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.viewControllers = [AllPlacesP.instantiate(fromAppStoryboard: .places)]
+        self.viewControllers = [//AllPlacesP.instantiate(fromAppStoryboard: .places),
+                                HomeP.instantiate(fromAppStoryboard: .main),
+                                MostPopularP.instantiate(fromAppStoryboard: .places)]
+        self.tabBar.items?[0].title = "_Home"
+        self.tabBar.items?[1].title = "_Most Popular"
+        
 
         // Do any additional setup after loading the view.
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

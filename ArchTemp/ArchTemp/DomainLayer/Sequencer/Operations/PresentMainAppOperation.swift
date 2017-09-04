@@ -22,6 +22,7 @@ class PresentMainAppOperation: ConcurrentOperation {
 
             let appDelegate  = UIApplication.shared.delegate as! AppDelegate
             appDelegate.window!.rootViewController = mainMVP
+            //appDelegate.window?.makeKeyAndVisible()
 
             self.state = .finished
         }

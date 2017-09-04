@@ -24,5 +24,17 @@ class  PlacesUseCase {
                       country: "USA",
                       urlPicture: "https://www.nd.nl/Uploads/2017/5/----------------5.jpg")]
     }
+    
+    func mostPopular() -> Place {
+        return Place(name: "Gizeh",
+                     country: "Egypt",
+                     urlPicture: "https://i.ytimg.com/vi/Do3oFnaoYCM/hqdefault.jpg")
+    }
+    
+    func latest() -> Place {
+        return Place(name: "Grand Canyon",
+              country: "USA",
+              urlPicture: "https://www.nd.nl/Uploads/2017/5/----------------5.jpg")
+    }
 
 }

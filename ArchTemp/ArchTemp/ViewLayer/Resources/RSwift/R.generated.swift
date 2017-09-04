@@ -49,7 +49,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.segue` struct is generated, and contains static references to 2 view controllers.
+  /// This `R.segue` struct is generated, and contains static references to 5 view controllers.
   struct segue {
     /// This struct is generated for `AllPlacesP`, and contains static references to 1 segues.
     struct allPlacesP {
@@ -66,16 +66,70 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This struct is generated for `PlaceDetailP`, and contains static references to 1 segues.
-    struct placeDetailP {
-      /// Segue identifier `PlaceDetailV`.
-      static let placeDetailV: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, PlaceDetailP, PlaceDetailV> = Rswift.StoryboardSegueIdentifier(identifier: "PlaceDetailV")
+    /// This struct is generated for `HomeP`, and contains static references to 1 segues.
+    struct homeP {
+      /// Segue identifier `HomeV`.
+      static let homeV: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, HomeP, HomeV> = Rswift.StoryboardSegueIdentifier(identifier: "HomeV")
       
-      /// Optionally returns a typed version of segue `PlaceDetailV`.
+      /// Optionally returns a typed version of segue `HomeV`.
       /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
       /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
-      static func placeDetailV(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, PlaceDetailP, PlaceDetailV>? {
-        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.placeDetailP.placeDetailV, segue: segue)
+      static func homeV(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, HomeP, HomeV>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.homeP.homeV, segue: segue)
+      }
+      
+      fileprivate init() {}
+    }
+    
+    /// This struct is generated for `HomeV`, and contains static references to 2 segues.
+    struct homeV {
+      /// Segue identifier `LatestPlaceP`.
+      static let latestPlaceP: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, HomeV, LatestPlaceP> = Rswift.StoryboardSegueIdentifier(identifier: "LatestPlaceP")
+      /// Segue identifier `MostPopularP`.
+      static let mostPopularP: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, HomeV, MostPopularP> = Rswift.StoryboardSegueIdentifier(identifier: "MostPopularP")
+      
+      /// Optionally returns a typed version of segue `LatestPlaceP`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func latestPlaceP(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, HomeV, LatestPlaceP>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.homeV.latestPlaceP, segue: segue)
+      }
+      
+      /// Optionally returns a typed version of segue `MostPopularP`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func mostPopularP(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, HomeV, MostPopularP>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.homeV.mostPopularP, segue: segue)
+      }
+      
+      fileprivate init() {}
+    }
+    
+    /// This struct is generated for `LatestPlaceP`, and contains static references to 1 segues.
+    struct latestPlaceP {
+      /// Segue identifier `LatestPlaceV`.
+      static let latestPlaceV: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, LatestPlaceP, LatestPlaceV> = Rswift.StoryboardSegueIdentifier(identifier: "LatestPlaceV")
+      
+      /// Optionally returns a typed version of segue `LatestPlaceV`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func latestPlaceV(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, LatestPlaceP, LatestPlaceV>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.latestPlaceP.latestPlaceV, segue: segue)
+      }
+      
+      fileprivate init() {}
+    }
+    
+    /// This struct is generated for `MostPopularP`, and contains static references to 1 segues.
+    struct mostPopularP {
+      /// Segue identifier `MostPopularV`.
+      static let mostPopularV: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, MostPopularP, MostPopularV> = Rswift.StoryboardSegueIdentifier(identifier: "MostPopularV")
+      
+      /// Optionally returns a typed version of segue `MostPopularV`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func mostPopularV(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, MostPopularP, MostPopularV>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.mostPopularP.mostPopularV, segue: segue)
       }
       
       fileprivate init() {}
@@ -157,14 +211,20 @@ struct _R: Rswift.Validatable {
       typealias InitialController = MainMVP
       
       let bundle = R.hostingBundle
+      let homeP = StoryboardViewControllerResource<HomeP>(identifier: "HomeP")
       let mainMVP = StoryboardViewControllerResource<MainMVP>(identifier: "MainMVP")
       let name = "main"
+      
+      func homeP(_: Void = ()) -> HomeP? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: homeP)
+      }
       
       func mainMVP(_: Void = ()) -> MainMVP? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: mainMVP)
       }
       
       static func validate() throws {
+        if _R.storyboard.main().homeP() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'homeP' could not be loaded from storyboard 'main' as 'HomeP'.") }
         if _R.storyboard.main().mainMVP() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'mainMVP' could not be loaded from storyboard 'main' as 'MainMVP'.") }
       }
       
@@ -174,19 +234,25 @@ struct _R: Rswift.Validatable {
     struct places: Rswift.StoryboardResourceType, Rswift.Validatable {
       let allPlacesP = StoryboardViewControllerResource<AllPlacesP>(identifier: "AllPlacesP")
       let bundle = R.hostingBundle
+      let latestPlaceP = StoryboardViewControllerResource<LatestPlaceP>(identifier: "LatestPlaceP")
+      let mostPopularP = StoryboardViewControllerResource<MostPopularP>(identifier: "MostPopularP")
       let name = "places"
-      let placeDetailP = StoryboardViewControllerResource<PlaceDetailP>(identifier: "PlaceDetailP")
       
       func allPlacesP(_: Void = ()) -> AllPlacesP? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: allPlacesP)
       }
       
-      func placeDetailP(_: Void = ()) -> PlaceDetailP? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: placeDetailP)
+      func latestPlaceP(_: Void = ()) -> LatestPlaceP? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: latestPlaceP)
+      }
+      
+      func mostPopularP(_: Void = ()) -> MostPopularP? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: mostPopularP)
       }
       
       static func validate() throws {
-        if _R.storyboard.places().placeDetailP() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'placeDetailP' could not be loaded from storyboard 'places' as 'PlaceDetailP'.") }
+        if _R.storyboard.places().latestPlaceP() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'latestPlaceP' could not be loaded from storyboard 'places' as 'LatestPlaceP'.") }
+        if _R.storyboard.places().mostPopularP() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'mostPopularP' could not be loaded from storyboard 'places' as 'MostPopularP'.") }
         if _R.storyboard.places().allPlacesP() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'allPlacesP' could not be loaded from storyboard 'places' as 'AllPlacesP'.") }
       }
       

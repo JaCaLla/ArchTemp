@@ -17,16 +17,20 @@
 		BF2B4DF91F55449700B9A17B /* AllPlacesP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */; };
 		BF2B4DFA1F55449700B9A17B /* AllPlacesHeaderV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */; };
 		BF2B4DFB1F55449700B9A17B /* AllPlacesV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */; };
-		BF2B4DFC1F55449700B9A17B /* PlaceDetailP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF61F55449700B9A17B /* PlaceDetailP.swift */; };
-		BF2B4DFD1F55449700B9A17B /* places.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B4DF81F55449700B9A17B /* places.storyboard */; };
-		BF2B4DFF1F5544FA00B9A17B /* PlaceDetailV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DFE1F5544FA00B9A17B /* PlaceDetailV.swift */; };
 		BF2B4E021F55452900B9A17B /* PlacesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E011F55452900B9A17B /* PlacesUseCase.swift */; };
 		BF2B4E051F55455B00B9A17B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E041F55455B00B9A17B /* Place.swift */; };
 		BF2B4E0A1F5547D600B9A17B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E091F5547D600B9A17B /* R.generated.swift */; };
+		BF2B4E621F57201D00B9A17B /* places.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B4E611F57201D00B9A17B /* places.storyboard */; };
 		BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BDC311F4C02930035F0F3 /* AppDelegate.swift */; };
 		BF7BDC391F4C02930035F0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7BDC381F4C02930035F0F3 /* Assets.xcassets */; };
 		BF7BDC3C1F4C02930035F0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7BDC3A1F4C02930035F0F3 /* LaunchScreen.storyboard */; };
 		BF7BDC471F4C02930035F0F3 /* ArchTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BDC461F4C02930035F0F3 /* ArchTempTests.swift */; };
+		BF82BA7A1F5915A300CC1773 /* MostPopularP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA771F5915A300CC1773 /* MostPopularP.swift */; };
+		BF82BA7B1F5915A300CC1773 /* MostPopularV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA791F5915A300CC1773 /* MostPopularV.swift */; };
+		BF82BA801F591B8600CC1773 /* LatestPlaceP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA7D1F591B8600CC1773 /* LatestPlaceP.swift */; };
+		BF82BA811F591B8600CC1773 /* LatestPlaceV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA7F1F591B8600CC1773 /* LatestPlaceV.swift */; };
+		BF82BA871F5928DA00CC1773 /* HomeP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA831F5928DA00CC1773 /* HomeP.swift */; };
+		BF82BA881F5928DA00CC1773 /* HomeV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA861F5928DA00CC1773 /* HomeV.swift */; };
 		E8A8EE5607B2703EC07DA9F4 /* Pods_ArchTempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C42D1653762975DE1AC3082 /* Pods_ArchTempTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,12 +59,10 @@
 		BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesP.swift; sourceTree = "<group>"; };
 		BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesHeaderV.swift; sourceTree = "<group>"; };
 		BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesV.swift; sourceTree = "<group>"; };
-		BF2B4DF61F55449700B9A17B /* PlaceDetailP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailP.swift; sourceTree = "<group>"; };
-		BF2B4DF81F55449700B9A17B /* places.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = places.storyboard; sourceTree = "<group>"; };
-		BF2B4DFE1F5544FA00B9A17B /* PlaceDetailV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailV.swift; sourceTree = "<group>"; };
 		BF2B4E011F55452900B9A17B /* PlacesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesUseCase.swift; sourceTree = "<group>"; };
 		BF2B4E041F55455B00B9A17B /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		BF2B4E091F5547D600B9A17B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		BF2B4E611F57201D00B9A17B /* places.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = places.storyboard; sourceTree = "<group>"; };
 		BF7BDC2E1F4C02930035F0F3 /* ArchTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7BDC311F4C02930035F0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF7BDC381F4C02930035F0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +71,12 @@
 		BF7BDC421F4C02930035F0F3 /* ArchTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7BDC461F4C02930035F0F3 /* ArchTempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchTempTests.swift; sourceTree = "<group>"; };
 		BF7BDC481F4C02930035F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF82BA771F5915A300CC1773 /* MostPopularP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularP.swift; sourceTree = "<group>"; };
+		BF82BA791F5915A300CC1773 /* MostPopularV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularV.swift; sourceTree = "<group>"; };
+		BF82BA7D1F591B8600CC1773 /* LatestPlaceP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestPlaceP.swift; sourceTree = "<group>"; };
+		BF82BA7F1F591B8600CC1773 /* LatestPlaceV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestPlaceV.swift; sourceTree = "<group>"; };
+		BF82BA831F5928DA00CC1773 /* HomeP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeP.swift; sourceTree = "<group>"; };
+		BF82BA861F5928DA00CC1773 /* HomeV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeV.swift; sourceTree = "<group>"; };
 		C4DD2576F197ADD6697128F3 /* Pods-ArchTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +167,7 @@
 		BF280AE81F513AFA00134803 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BF82BA821F5928DA00CC1773 /* Home */,
 				BF280AE91F513AFA00134803 /* main.storyboard */,
 				BF280AEA1F513AFA00134803 /* MainMVP.swift */,
 			);
@@ -176,9 +185,10 @@
 		BF2B4DEF1F55449700B9A17B /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				BF2B4E611F57201D00B9A17B /* places.storyboard */,
+				BF82BA7C1F591B8600CC1773 /* LatestPlace */,
+				BF82BA761F5915A300CC1773 /* MostPopular */,
 				BF2B4DF01F55449700B9A17B /* AllPlaces */,
-				BF2B4DF51F55449700B9A17B /* PlaceDetail */,
-				BF2B4DF81F55449700B9A17B /* places.storyboard */,
 			);
 			path = Places;
 			sourceTree = "<group>";
@@ -197,23 +207,6 @@
 			children = (
 				BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */,
 				BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		BF2B4DF51F55449700B9A17B /* PlaceDetail */ = {
-			isa = PBXGroup;
-			children = (
-				BF2B4DF61F55449700B9A17B /* PlaceDetailP.swift */,
-				BF2B4DF71F55449700B9A17B /* Views */,
-			);
-			path = PlaceDetail;
-			sourceTree = "<group>";
-		};
-		BF2B4DF71F55449700B9A17B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				BF2B4DFE1F5544FA00B9A17B /* PlaceDetailV.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,6 +287,65 @@
 				BF7BDC481F4C02930035F0F3 /* Info.plist */,
 			);
 			path = ArchTempTests;
+			sourceTree = "<group>";
+		};
+		BF82BA761F5915A300CC1773 /* MostPopular */ = {
+			isa = PBXGroup;
+			children = (
+				BF82BA771F5915A300CC1773 /* MostPopularP.swift */,
+				BF82BA781F5915A300CC1773 /* Views */,
+			);
+			path = MostPopular;
+			sourceTree = "<group>";
+		};
+		BF82BA781F5915A300CC1773 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF82BA791F5915A300CC1773 /* MostPopularV.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF82BA7C1F591B8600CC1773 /* LatestPlace */ = {
+			isa = PBXGroup;
+			children = (
+				BF82BA7D1F591B8600CC1773 /* LatestPlaceP.swift */,
+				BF82BA7E1F591B8600CC1773 /* Views */,
+			);
+			path = LatestPlace;
+			sourceTree = "<group>";
+		};
+		BF82BA7E1F591B8600CC1773 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF82BA7F1F591B8600CC1773 /* LatestPlaceV.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF82BA821F5928DA00CC1773 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF82BA831F5928DA00CC1773 /* HomeP.swift */,
+				BF82BA841F5928DA00CC1773 /* Presenters */,
+				BF82BA851F5928DA00CC1773 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF82BA841F5928DA00CC1773 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		BF82BA851F5928DA00CC1773 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF82BA861F5928DA00CC1773 /* HomeV.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F283E3D928E62156C0F09B27 /* Pods */ = {
@@ -399,7 +451,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2B4DFD1F55449700B9A17B /* places.storyboard in Resources */,
+				BF2B4E621F57201D00B9A17B /* places.storyboard in Resources */,
 				BF7BDC3C1F4C02930035F0F3 /* LaunchScreen.storyboard in Resources */,
 				BF7BDC391F4C02930035F0F3 /* Assets.xcassets in Resources */,
 				BF280AEB1F513AFA00134803 /* main.storyboard in Resources */,
@@ -499,12 +551,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
@@ -556,17 +610,21 @@
 			files = (
 				BF280AE11F51391E00134803 /* PresentMainAppOperation.swift in Sources */,
 				BF2B4E0A1F5547D600B9A17B /* R.generated.swift in Sources */,
+				BF82BA7A1F5915A300CC1773 /* MostPopularP.swift in Sources */,
+				BF82BA871F5928DA00CC1773 /* HomeP.swift in Sources */,
 				BF2B4E051F55455B00B9A17B /* Place.swift in Sources */,
 				BF2B4DFB1F55449700B9A17B /* AllPlacesV.swift in Sources */,
+				BF82BA811F591B8600CC1773 /* LatestPlaceV.swift in Sources */,
+				BF82BA881F5928DA00CC1773 /* HomeV.swift in Sources */,
 				BF2B4DFA1F55449700B9A17B /* AllPlacesHeaderV.swift in Sources */,
 				BF280AEC1F513AFA00134803 /* MainMVP.swift in Sources */,
 				BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */,
 				BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */,
 				BF280AEF1F513B8B00134803 /* AppStoryboard.swift in Sources */,
 				BF2B4E021F55452900B9A17B /* PlacesUseCase.swift in Sources */,
-				BF2B4DFC1F55449700B9A17B /* PlaceDetailP.swift in Sources */,
+				BF82BA801F591B8600CC1773 /* LatestPlaceP.swift in Sources */,
 				BF280ADF1F5137FA00134803 /* InitAppSequence.swift in Sources */,
-				BF2B4DFF1F5544FA00B9A17B /* PlaceDetailV.swift in Sources */,
+				BF82BA7B1F5915A300CC1773 /* MostPopularV.swift in Sources */,
 				BF2B4DF91F55449700B9A17B /* AllPlacesP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

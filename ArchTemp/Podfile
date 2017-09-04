@@ -15,6 +15,9 @@ def shared_pods
     pod 'SwiftLint', '~> 0.16.1'
     pod 'R.swift'
     
+    # UI
+    pod 'MBProgressHUD', '~> 1.0.0'
+
 end
 
 target ‘ArchTemp’ do
