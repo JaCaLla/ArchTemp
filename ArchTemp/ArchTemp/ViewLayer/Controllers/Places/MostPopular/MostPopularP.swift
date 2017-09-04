@@ -25,6 +25,9 @@ class MostPopularP: UIViewController {
     
         if (segue.identifier ==  R.segue.mostPopularP.mostPopularV.identifier) {
             mostPopularV = segue.destination as? MostPopularV
+            mostPopularV?.onVoteUp = { _ in
+                PlacesUseCase.shared.voteUpMostPopular()
+            }
             
         }
     }

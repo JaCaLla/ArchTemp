@@ -14,9 +14,6 @@
 		BF280AEC1F513AFA00134803 /* MainMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AEA1F513AFA00134803 /* MainMVP.swift */; };
 		BF280AEF1F513B8B00134803 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AEE1F513B8B00134803 /* AppStoryboard.swift */; };
 		BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280AF01F513C4100134803 /* ConcurrentOperation.swift */; };
-		BF2B4DF91F55449700B9A17B /* AllPlacesP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */; };
-		BF2B4DFA1F55449700B9A17B /* AllPlacesHeaderV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */; };
-		BF2B4DFB1F55449700B9A17B /* AllPlacesV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */; };
 		BF2B4E021F55452900B9A17B /* PlacesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E011F55452900B9A17B /* PlacesUseCase.swift */; };
 		BF2B4E051F55455B00B9A17B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E041F55455B00B9A17B /* Place.swift */; };
 		BF2B4E0A1F5547D600B9A17B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B4E091F5547D600B9A17B /* R.generated.swift */; };
@@ -56,9 +53,6 @@
 		BF280AEA1F513AFA00134803 /* MainMVP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMVP.swift; sourceTree = "<group>"; };
 		BF280AEE1F513B8B00134803 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStoryboard.swift; path = ViewLayer/Extensions/AppStoryboard.swift; sourceTree = "<group>"; };
 		BF280AF01F513C4100134803 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConcurrentOperation.swift; path = DomainLayer/Sequencer/Operations/ConcurrentOperation.swift; sourceTree = "<group>"; };
-		BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesP.swift; sourceTree = "<group>"; };
-		BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesHeaderV.swift; sourceTree = "<group>"; };
-		BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlacesV.swift; sourceTree = "<group>"; };
 		BF2B4E011F55452900B9A17B /* PlacesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesUseCase.swift; sourceTree = "<group>"; };
 		BF2B4E041F55455B00B9A17B /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		BF2B4E091F5547D600B9A17B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
@@ -188,27 +182,8 @@
 				BF2B4E611F57201D00B9A17B /* places.storyboard */,
 				BF82BA7C1F591B8600CC1773 /* LatestPlace */,
 				BF82BA761F5915A300CC1773 /* MostPopular */,
-				BF2B4DF01F55449700B9A17B /* AllPlaces */,
 			);
 			path = Places;
-			sourceTree = "<group>";
-		};
-		BF2B4DF01F55449700B9A17B /* AllPlaces */ = {
-			isa = PBXGroup;
-			children = (
-				BF2B4DF11F55449700B9A17B /* AllPlacesP.swift */,
-				BF2B4DF21F55449700B9A17B /* Views */,
-			);
-			path = AllPlaces;
-			sourceTree = "<group>";
-		};
-		BF2B4DF21F55449700B9A17B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				BF2B4DF31F55449700B9A17B /* AllPlacesHeaderV.swift */,
-				BF2B4DF41F55449700B9A17B /* AllPlacesV.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		BF2B4E001F55452900B9A17B /* UseCases */ = {
@@ -613,10 +588,8 @@
 				BF82BA7A1F5915A300CC1773 /* MostPopularP.swift in Sources */,
 				BF82BA871F5928DA00CC1773 /* HomeP.swift in Sources */,
 				BF2B4E051F55455B00B9A17B /* Place.swift in Sources */,
-				BF2B4DFB1F55449700B9A17B /* AllPlacesV.swift in Sources */,
 				BF82BA811F591B8600CC1773 /* LatestPlaceV.swift in Sources */,
 				BF82BA881F5928DA00CC1773 /* HomeV.swift in Sources */,
-				BF2B4DFA1F55449700B9A17B /* AllPlacesHeaderV.swift in Sources */,
 				BF280AEC1F513AFA00134803 /* MainMVP.swift in Sources */,
 				BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */,
 				BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */,
@@ -625,7 +598,6 @@
 				BF82BA801F591B8600CC1773 /* LatestPlaceP.swift in Sources */,
 				BF280ADF1F5137FA00134803 /* InitAppSequence.swift in Sources */,
 				BF82BA7B1F5915A300CC1773 /* MostPopularV.swift in Sources */,
-				BF2B4DF91F55449700B9A17B /* AllPlacesP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

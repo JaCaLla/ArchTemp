@@ -10,37 +10,14 @@ import UIKit
 
 class HomeV: UIViewController {
     
-    // MARK: - IBOutlet
-
-    
-    
-    // MARK: - Public attributes
-    
-    // MARK: -
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        self.setupView()
-    }
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == R.segue.homeV.mostPopularP.identifier {
             
-            let mostMopularP = segue.destination as? MostPopularP
+            _ = segue.destination as? MostPopularP
             
         } else if segue.identifier == R.segue.homeV.latestPlaceP.identifier {
             
-            let lastestPlace = segue.destination as? LatestPlaceP
+            _ = segue.destination as? LatestPlaceP
         }
     }
-    
-    // MARK: - Private/Internal
-    func setupView() {
-
-    }
-    
-    func refreshView() {
-
-    }
-    
 }

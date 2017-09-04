@@ -11,6 +11,10 @@ import Foundation
 class  PlacesUseCase {
 
     static let shared =  PlacesUseCase()
+    
+    func voteUpMostPopular() {
+        // TODO
+    }
 
     func placeList() -> [Place] {
 
@@ -26,9 +30,9 @@ class  PlacesUseCase {
     }
     
     func mostPopular() -> Place {
-        return Place(name: "Gizeh",
-                     country: "Egypt",
-                     urlPicture: "https://i.ytimg.com/vi/Do3oFnaoYCM/hqdefault.jpg")
+        return Place(name: "Seljalandfoss",
+                     country: "Iceland",
+                     urlPicture: "https://s3-eu-west-1.amazonaws.com/originaltravel.assets.d3r.com/images/gallery/270118-iceland-4.jpg")
     }
     
     func latest() -> Place {

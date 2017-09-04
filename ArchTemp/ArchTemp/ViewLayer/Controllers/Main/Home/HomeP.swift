@@ -10,9 +10,6 @@ import UIKit
 
 class HomeP: UIViewController {
     
-    // MARK: - IBOutlet
-    // @IBOutlet weak var registerV: RegisterV!
-    
     // MARK: - Private attribues
     var homeV: HomeV?
     
@@ -20,7 +17,6 @@ class HomeP: UIViewController {
         super.viewDidLoad()
         
         self.setupPresenter()
-        self.fetchMostPopular()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -36,14 +32,6 @@ class HomeP: UIViewController {
         self.tabBarItem = UITabBarItem(title: "_Home",
                                        image: nil ,
                                        selectedImage:  nil)
-    }
-    
-    func fetchMostPopular() {
-        guard let _homeV = self.homeV else {
-            return
-        }
-        
-        //_homeV.place =  PlacesUseCase.shared.mostPopular()
     }
     
 }

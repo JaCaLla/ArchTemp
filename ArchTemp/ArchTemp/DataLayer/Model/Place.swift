@@ -45,8 +45,9 @@ class Place:Object {
             return
         }
         
-        if let _data = NSData(contentsOf: URL(string: self.urlPicture)!) {
-            self.imgPicture = UIImage(data: _data as Data)!
+        if let _data = NSData(contentsOf: URL(string: self.urlPicture)!),
+            let _image =  UIImage(data: _data as Data) {
+            self.imgPicture = _image
             completion(self.imgPicture!, true)
         }
 

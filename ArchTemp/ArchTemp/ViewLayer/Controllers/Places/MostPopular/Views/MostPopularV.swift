@@ -42,6 +42,7 @@ class MostPopularV: UIViewController {
     
     // MARK: - Private/Internal
     func setupView() {
+        btnVoteUp.setTitle("_Vote Up!",for: .normal)
         btnVoteUp.addTarget(self, action: #selector(btnVoteUpAction), for: .touchUpInside)
     }
     
