@@ -42,9 +42,9 @@ class MostPopularP: UIViewController {
     }
     
     func setupPresenter() {
-        self.tabBarItem = UITabBarItem(title: "_Popular",
+       /* self.tabBarItem = UITabBarItem(title: "_Popular",
                                        image: nil ,
-                                       selectedImage:  nil)
+                                       selectedImage:  nil)*/
     }
     
 }

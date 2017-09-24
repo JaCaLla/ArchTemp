@@ -13,6 +13,7 @@ struct R: Rswift.Validatable {
   fileprivate static let hostingBundle = Bundle(for: R.Class.self)
   
   static func validate() throws {
+    try font.validate()
     try intern.validate()
   }
   
@@ -21,13 +22,146 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 0 files.
+  /// This `R.file` struct is generated, and contains static references to 8 files.
   struct file {
+    /// Resource file `GothamRounded-Bold.otf`.
+    static let gothamRoundedBoldOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-Bold", pathExtension: "otf")
+    /// Resource file `GothamRounded-BoldItalic.otf`.
+    static let gothamRoundedBoldItalicOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-BoldItalic", pathExtension: "otf")
+    /// Resource file `GothamRounded-Book.otf`.
+    static let gothamRoundedBookOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-Book", pathExtension: "otf")
+    /// Resource file `GothamRounded-BookItalic.otf`.
+    static let gothamRoundedBookItalicOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-BookItalic", pathExtension: "otf")
+    /// Resource file `GothamRounded-Light.otf`.
+    static let gothamRoundedLightOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-Light", pathExtension: "otf")
+    /// Resource file `GothamRounded-LightItalic.otf`.
+    static let gothamRoundedLightItalicOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-LightItalic", pathExtension: "otf")
+    /// Resource file `GothamRounded-Medium.otf`.
+    static let gothamRoundedMediumOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-Medium", pathExtension: "otf")
+    /// Resource file `GothamRounded-MediumItalic.otf`.
+    static let gothamRoundedMediumItalicOtf = Rswift.FileResource(bundle: R.hostingBundle, name: "GothamRounded-MediumItalic", pathExtension: "otf")
+    
+    /// `bundle.url(forResource: "GothamRounded-Bold", withExtension: "otf")`
+    static func gothamRoundedBoldOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedBoldOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "GothamRounded-BoldItalic", withExtension: "otf")`
+    static func gothamRoundedBoldItalicOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedBoldItalicOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "GothamRounded-Book", withExtension: "otf")`
+    static func gothamRoundedBookOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedBookOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "GothamRounded-BookItalic", withExtension: "otf")`
+    static func gothamRoundedBookItalicOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedBookItalicOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "GothamRounded-Light", withExtension: "otf")`
+    static func gothamRoundedLightOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedLightOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "GothamRounded-LightItalic", withExtension: "otf")`
+    static func gothamRoundedLightItalicOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedLightItalicOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "GothamRounded-Medium", withExtension: "otf")`
+    static func gothamRoundedMediumOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedMediumOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "GothamRounded-MediumItalic", withExtension: "otf")`
+    static func gothamRoundedMediumItalicOtf(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gothamRoundedMediumItalicOtf
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     fileprivate init() {}
   }
   
-  /// This `R.font` struct is generated, and contains static references to 0 fonts.
-  struct font {
+  /// This `R.font` struct is generated, and contains static references to 8 fonts.
+  struct font: Rswift.Validatable {
+    /// Font `GothamRounded-BoldItalic`.
+    static let gothamRoundedBoldItalic = Rswift.FontResource(fontName: "GothamRounded-BoldItalic")
+    /// Font `GothamRounded-Bold`.
+    static let gothamRoundedBold = Rswift.FontResource(fontName: "GothamRounded-Bold")
+    /// Font `GothamRounded-BookItalic`.
+    static let gothamRoundedBookItalic = Rswift.FontResource(fontName: "GothamRounded-BookItalic")
+    /// Font `GothamRounded-Book`.
+    static let gothamRoundedBook = Rswift.FontResource(fontName: "GothamRounded-Book")
+    /// Font `GothamRounded-LightItalic`.
+    static let gothamRoundedLightItalic = Rswift.FontResource(fontName: "GothamRounded-LightItalic")
+    /// Font `GothamRounded-Light`.
+    static let gothamRoundedLight = Rswift.FontResource(fontName: "GothamRounded-Light")
+    /// Font `GothamRounded-MediumItalic`.
+    static let gothamRoundedMediumItalic = Rswift.FontResource(fontName: "GothamRounded-MediumItalic")
+    /// Font `GothamRounded-Medium`.
+    static let gothamRoundedMedium = Rswift.FontResource(fontName: "GothamRounded-Medium")
+    
+    /// `UIFont(name: "GothamRounded-Bold", size: ...)`
+    static func gothamRoundedBold(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedBold, size: size)
+    }
+    
+    /// `UIFont(name: "GothamRounded-BoldItalic", size: ...)`
+    static func gothamRoundedBoldItalic(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedBoldItalic, size: size)
+    }
+    
+    /// `UIFont(name: "GothamRounded-Book", size: ...)`
+    static func gothamRoundedBook(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedBook, size: size)
+    }
+    
+    /// `UIFont(name: "GothamRounded-BookItalic", size: ...)`
+    static func gothamRoundedBookItalic(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedBookItalic, size: size)
+    }
+    
+    /// `UIFont(name: "GothamRounded-Light", size: ...)`
+    static func gothamRoundedLight(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedLight, size: size)
+    }
+    
+    /// `UIFont(name: "GothamRounded-LightItalic", size: ...)`
+    static func gothamRoundedLightItalic(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedLightItalic, size: size)
+    }
+    
+    /// `UIFont(name: "GothamRounded-Medium", size: ...)`
+    static func gothamRoundedMedium(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedMedium, size: size)
+    }
+    
+    /// `UIFont(name: "GothamRounded-MediumItalic", size: ...)`
+    static func gothamRoundedMediumItalic(size: CGFloat) -> UIKit.UIFont? {
+      return UIKit.UIFont(resource: gothamRoundedMediumItalic, size: size)
+    }
+    
+    static func validate() throws {
+      if R.font.gothamRoundedBold(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-Bold' could not be loaded, is 'GothamRounded-Bold.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.gothamRoundedLightItalic(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-LightItalic' could not be loaded, is 'GothamRounded-LightItalic.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.gothamRoundedBook(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-Book' could not be loaded, is 'GothamRounded-Book.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.gothamRoundedBookItalic(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-BookItalic' could not be loaded, is 'GothamRounded-BookItalic.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.gothamRoundedBoldItalic(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-BoldItalic' could not be loaded, is 'GothamRounded-BoldItalic.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.gothamRoundedMediumItalic(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-MediumItalic' could not be loaded, is 'GothamRounded-MediumItalic.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.gothamRoundedMedium(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-Medium' could not be loaded, is 'GothamRounded-Medium.otf' added to the UIAppFonts array in this targets Info.plist?") }
+      if R.font.gothamRoundedLight(size: 42) == nil { throw Rswift.ValidationError(description:"[R.swift] Font 'GothamRounded-Light' could not be loaded, is 'GothamRounded-Light.otf' added to the UIAppFonts array in this targets Info.plist?") }
+    }
+    
     fileprivate init() {}
   }
   
@@ -147,8 +281,36 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.string` struct is generated, and contains static references to 0 localization tables.
+  /// This `R.string` struct is generated, and contains static references to 1 localization tables.
   struct string {
+    /// This `R.string.localizable` struct is generated, and contains static references to 2 localization keys.
+    struct localizable {
+      /// en translation: Home
+      /// 
+      /// Locales: en
+      static let home = Rswift.StringResource(key: "Home", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
+      /// en translation: Most popular
+      /// 
+      /// Locales: en
+      static let mostPopular = Rswift.StringResource(key: "MostPopular", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en"], comment: nil)
+      
+      /// en translation: Home
+      /// 
+      /// Locales: en
+      static func home(_: Void = ()) -> String {
+        return NSLocalizedString("Home", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Most popular
+      /// 
+      /// Locales: en
+      static func mostPopular(_: Void = ()) -> String {
+        return NSLocalizedString("MostPopular", bundle: R.hostingBundle, comment: "")
+      }
+      
+      fileprivate init() {}
+    }
+    
     fileprivate init() {}
   }
   

@@ -44,12 +44,20 @@ class MostPopularV: UIViewController {
     func setupView() {
         btnVoteUp.setTitle("_Vote Up!",for: .normal)
         btnVoteUp.addTarget(self, action: #selector(btnVoteUpAction), for: .touchUpInside)
+        btnVoteUp.titleLabel?.font        = ArchTempFonts.MostPopular.BoteUpButtonFont
+        btnVoteUp.titleLabel?.textColor   = ArchTempColors.MostPopular.VoteUpButtonFontColor
+        btnVoteUp.isAccessibilityElement = true
+        btnVoteUp.accessibilityIdentifier = Accessibility.MostPopular.VoteUpButton
     }
     
     func refreshView() {
         guard let _place = self.place else { return }
         
         lblName.text = _place.name + " - " + _place.country
+        lblName.font = ArchTempFonts.MostPopular.PlaceCountryFont
+        lblName.textColor = ArchTempColors.MostPopular.PlaceCountryFontColor
+        lblName.isAccessibilityElement = true
+        lblName.accessibilityIdentifier = Accessibility.MostPopular.PlaceCountry
         
         let spinnerActivity = MBProgressHUD.showAdded(to: imgPlace, animated: true)
         spinnerActivity.removeFromSuperViewOnHide = true

@@ -28,6 +28,19 @@
 		BF82BA811F591B8600CC1773 /* LatestPlaceV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA7F1F591B8600CC1773 /* LatestPlaceV.swift */; };
 		BF82BA871F5928DA00CC1773 /* HomeP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA831F5928DA00CC1773 /* HomeP.swift */; };
 		BF82BA881F5928DA00CC1773 /* HomeV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82BA861F5928DA00CC1773 /* HomeV.swift */; };
+		BF873DD41F77595000C4573A /* ArchTempColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF873DD31F77595000C4573A /* ArchTempColors.swift */; };
+		BF873DD61F775FDE00C4573A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF873DD51F775FDE00C4573A /* String.swift */; };
+		BF873DDA1F77669300C4573A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF873DDC1F77669300C4573A /* Localizable.strings */; };
+		BF873DDF1F78152000C4573A /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF873DDE1F78152000C4573A /* Accessibility.swift */; };
+		BFC25F741F768BD3003312B8 /* ArchTempFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC25F731F768BD3003312B8 /* ArchTempFonts.swift */; };
+		BFC25F751F774D9F003312B8 /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F661F767963003312B8 /* GothamRounded-Bold.otf */; };
+		BFC25F761F774D9F003312B8 /* GothamRounded-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F671F767963003312B8 /* GothamRounded-BoldItalic.otf */; };
+		BFC25F771F774D9F003312B8 /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F681F767963003312B8 /* GothamRounded-Book.otf */; };
+		BFC25F781F774D9F003312B8 /* GothamRounded-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F691F767963003312B8 /* GothamRounded-BookItalic.otf */; };
+		BFC25F791F774D9F003312B8 /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F6A1F767963003312B8 /* GothamRounded-Light.otf */; };
+		BFC25F7A1F774D9F003312B8 /* GothamRounded-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F6B1F767963003312B8 /* GothamRounded-LightItalic.otf */; };
+		BFC25F7B1F774D9F003312B8 /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F6C1F767963003312B8 /* GothamRounded-Medium.otf */; };
+		BFC25F7C1F774D9F003312B8 /* GothamRounded-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC25F6D1F767963003312B8 /* GothamRounded-MediumItalic.otf */; };
 		E8A8EE5607B2703EC07DA9F4 /* Pods_ArchTempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C42D1653762975DE1AC3082 /* Pods_ArchTempTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +84,19 @@
 		BF82BA7F1F591B8600CC1773 /* LatestPlaceV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestPlaceV.swift; sourceTree = "<group>"; };
 		BF82BA831F5928DA00CC1773 /* HomeP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeP.swift; sourceTree = "<group>"; };
 		BF82BA861F5928DA00CC1773 /* HomeV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeV.swift; sourceTree = "<group>"; };
+		BF873DD31F77595000C4573A /* ArchTempColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchTempColors.swift; sourceTree = "<group>"; };
+		BF873DD51F775FDE00C4573A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BF873DDB1F77669300C4573A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF873DDE1F78152000C4573A /* Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility.swift; sourceTree = "<group>"; };
+		BFC25F661F767963003312B8 /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		BFC25F671F767963003312B8 /* GothamRounded-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BoldItalic.otf"; sourceTree = "<group>"; };
+		BFC25F681F767963003312B8 /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		BFC25F691F767963003312B8 /* GothamRounded-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BookItalic.otf"; sourceTree = "<group>"; };
+		BFC25F6A1F767963003312B8 /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Light.otf"; sourceTree = "<group>"; };
+		BFC25F6B1F767963003312B8 /* GothamRounded-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-LightItalic.otf"; sourceTree = "<group>"; };
+		BFC25F6C1F767963003312B8 /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		BFC25F6D1F767963003312B8 /* GothamRounded-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-MediumItalic.otf"; sourceTree = "<group>"; };
+		BFC25F731F768BD3003312B8 /* ArchTempFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchTempFonts.swift; sourceTree = "<group>"; };
 		C4DD2576F197ADD6697128F3 /* Pods-ArchTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchTemp/Pods-ArchTemp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				BF280AEE1F513B8B00134803 /* AppStoryboard.swift */,
+				BF873DD51F775FDE00C4573A /* String.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -207,6 +234,10 @@
 		BF2B4E071F5546E100B9A17B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF873DDD1F78150000C4573A /* Accessibility */,
+				BF873DD71F77652B00C4573A /* Translations */,
+				BFC25F721F768B58003312B8 /* Styles */,
+				BFC25F651F767963003312B8 /* Fonts */,
 				BF2B4E081F5546E100B9A17B /* RSwift */,
 			);
 			name = Resources;
@@ -323,6 +354,46 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		BF873DD71F77652B00C4573A /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				BF873DDC1F77669300C4573A /* Localizable.strings */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		BF873DDD1F78150000C4573A /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				BF873DDE1F78152000C4573A /* Accessibility.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		BFC25F651F767963003312B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BFC25F661F767963003312B8 /* GothamRounded-Bold.otf */,
+				BFC25F671F767963003312B8 /* GothamRounded-BoldItalic.otf */,
+				BFC25F681F767963003312B8 /* GothamRounded-Book.otf */,
+				BFC25F691F767963003312B8 /* GothamRounded-BookItalic.otf */,
+				BFC25F6A1F767963003312B8 /* GothamRounded-Light.otf */,
+				BFC25F6B1F767963003312B8 /* GothamRounded-LightItalic.otf */,
+				BFC25F6C1F767963003312B8 /* GothamRounded-Medium.otf */,
+				BFC25F6D1F767963003312B8 /* GothamRounded-MediumItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BFC25F721F768B58003312B8 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				BFC25F731F768BD3003312B8 /* ArchTempFonts.swift */,
+				BF873DD31F77595000C4573A /* ArchTempColors.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		F283E3D928E62156C0F09B27 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,9 +497,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC25F7B1F774D9F003312B8 /* GothamRounded-Medium.otf in Resources */,
+				BFC25F771F774D9F003312B8 /* GothamRounded-Book.otf in Resources */,
+				BFC25F761F774D9F003312B8 /* GothamRounded-BoldItalic.otf in Resources */,
+				BFC25F781F774D9F003312B8 /* GothamRounded-BookItalic.otf in Resources */,
+				BFC25F791F774D9F003312B8 /* GothamRounded-Light.otf in Resources */,
 				BF2B4E621F57201D00B9A17B /* places.storyboard in Resources */,
+				BFC25F7C1F774D9F003312B8 /* GothamRounded-MediumItalic.otf in Resources */,
 				BF7BDC3C1F4C02930035F0F3 /* LaunchScreen.storyboard in Resources */,
 				BF7BDC391F4C02930035F0F3 /* Assets.xcassets in Resources */,
+				BF873DDA1F77669300C4573A /* Localizable.strings in Resources */,
+				BFC25F751F774D9F003312B8 /* GothamRounded-Bold.otf in Resources */,
+				BFC25F7A1F774D9F003312B8 /* GothamRounded-LightItalic.otf in Resources */,
 				BF280AEB1F513AFA00134803 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,8 +674,12 @@
 				BF280AF11F513C4100134803 /* ConcurrentOperation.swift in Sources */,
 				BF7BDC321F4C02930035F0F3 /* AppDelegate.swift in Sources */,
 				BF280AEF1F513B8B00134803 /* AppStoryboard.swift in Sources */,
+				BFC25F741F768BD3003312B8 /* ArchTempFonts.swift in Sources */,
+				BF873DD61F775FDE00C4573A /* String.swift in Sources */,
+				BF873DD41F77595000C4573A /* ArchTempColors.swift in Sources */,
 				BF2B4E021F55452900B9A17B /* PlacesUseCase.swift in Sources */,
 				BF82BA801F591B8600CC1773 /* LatestPlaceP.swift in Sources */,
+				BF873DDF1F78152000C4573A /* Accessibility.swift in Sources */,
 				BF280ADF1F5137FA00134803 /* InitAppSequence.swift in Sources */,
 				BF82BA7B1F5915A300CC1773 /* MostPopularV.swift in Sources */,
 			);
@@ -626,6 +710,14 @@
 				BF7BDC3B1F4C02930035F0F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BF873DDC1F77669300C4573A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF873DDB1F77669300C4573A /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

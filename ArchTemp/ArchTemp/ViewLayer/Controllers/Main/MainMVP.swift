@@ -15,8 +15,8 @@ class MainMVP: UITabBarController {
 
         self.viewControllers = [HomeP.instantiate(fromAppStoryboard: .main),
                                 MostPopularP.instantiate(fromAppStoryboard: .places)]
-        self.tabBar.items?[0].title = "_Home"
-        self.tabBar.items?[1].title = "_Most Popular"
+        self.tabBar.items?[0].title = R.string.localizable.home.key.localized//"_Home"
+        self.tabBar.items?[1].title = R.string.localizable.mostPopular.key.localized//"_Most Popular"
         
 
         // Do any additional setup after loading the view.

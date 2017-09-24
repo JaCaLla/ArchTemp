@@ -42,8 +42,17 @@ class LatestPlaceV: UIViewController {
         guard let _place = self.place else { return }
         
         lblName.text = _place.name
-        lblCountry.text = _place.country
+        lblName.font = ArchTempFonts.LatestPlace.PlaceFont
+        lblName.textColor = ArchTempColors.LatestPlace.PlaceFontColor
+        lblName.isAccessibilityElement = true
+        lblName.accessibilityIdentifier = Accessibility.LatestPlace.Place
         
+        lblCountry.text = _place.country
+        lblCountry.font = ArchTempFonts.LatestPlace.CountryFont
+        lblCountry.textColor = ArchTempColors.LatestPlace.CountryFontColor
+        lblCountry.isAccessibilityElement = true
+        lblCountry.accessibilityIdentifier = Accessibility.LatestPlace.Country
+    
         let spinnerActivity = MBProgressHUD.showAdded(to: imgPlace, animated: true)
         spinnerActivity.removeFromSuperViewOnHide = true
         spinnerActivity.bezelView.color = UIColor.clear
